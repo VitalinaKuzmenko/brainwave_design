@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 
-root {
+:root {
   --purple-color: #473bf0;
   --dark-purple-color: #161c2d;
   --toggle-color: #dcdde0;
@@ -25,6 +25,7 @@ body {
 
 body {
   color: var(--dark-purple-color);
+  font-family: var(--main-font);
 }
 
 a {
