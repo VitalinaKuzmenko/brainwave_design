@@ -5,6 +5,12 @@
   position: fixed;
   z-index: 3;
   margin: 0 auto;
+  width: 100%;
+}
+
+.header_wrapper {
+  max-width: var(--max-width);
+  margin: auto;
 }
 
 .header nav {
