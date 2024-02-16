@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "Gilroy";
+  src: url("/fonts/Gilroy-ExtraBold.otf") format("opentype");
+  font-weight: 800; /* ExtraBold */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("/fonts/Gilroy-Extra-Light.otf") format("opentype");
+  font-weight: 200; /* ExtraLight */
+  font-style: normal;
+}

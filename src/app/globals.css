@@ -1,7 +1,11 @@
-:root {
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+root {
   --purple-color: #473bf0;
   --dark-purple-color: #161c2d;
   --toggle-color: #dcdde0;
   --background-circle-color: #edebfe;
   --max-width: 1100px;
+  --main-font: "Gilroy", sans-serif;
+  --rubik-font: "Rubik", sans-serif;
 }
