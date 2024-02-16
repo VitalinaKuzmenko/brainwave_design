@@ -131,21 +131,23 @@
 
 .header .nav_buttons button {
   width: 100px;
-  margin: 10px 10px;
   font-size: 15px;
   font-weight: 800;
   border: none;
-  padding: 15px;
   border-radius: 5px;
 }
 
 .sign_in_button {
   background: none;
+  margin: 10px 10px 10px 0;
+  padding: 15px 15px 15px 0;
 }
 
 .sign_up_button {
   color: var(--white-color);
   background-color: var(--purple-color);
+  margin: 10px 10px;
+  padding: 15px;
 }
 
 @media (min-width: 1024px) {
@@ -172,5 +174,10 @@
   .header .nav_buttons {
     flex-direction: row;
     border-left: 1px solid #d5d7dd;
+  }
+
+  .sign_in_button {
+    margin: 10px 10px;
+    padding: 15px;
   }
 }
